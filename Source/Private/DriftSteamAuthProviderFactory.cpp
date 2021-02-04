@@ -1,5 +1,4 @@
-
-#include "DriftSteamPCH.h"
+// Copyright 2016-2021 Directive Games Limited - All Rights Reserved
 
 #include "DriftSteamAuthProviderFactory.h"
 #include "DriftSteamAuthProvider.h"

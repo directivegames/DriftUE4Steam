@@ -1,9 +1,8 @@
-
-#include "DriftSteamPCH.h"
+// Copyright 2016-2021 Directive Games Limited - All Rights Reserved
 
 #include "DriftSteamModule.h"
 
-#include "IPluginManager.h"
+#include "Interfaces/IPluginManager.h"
 #include "Features/IModularFeatures.h"
 
 
