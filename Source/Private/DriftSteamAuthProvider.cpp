@@ -100,7 +100,7 @@ void FDriftSteamAuthProvider::GetFriends(GetFriendsCallback callback)
 
 void FDriftSteamAuthProvider::FillProviderDetails(DetailsAppender appender) const
 {
-    appender(TEXT("steam_id"), steamID);
+    appender(TEXT("steamid"), steamID);
     appender(TEXT("ticket"), token);
     appender(TEXT("appid"), FString::Printf(TEXT("%d"), appID));
 }
