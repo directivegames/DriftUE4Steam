@@ -19,7 +19,7 @@ FDriftSteamAuthProvider::FDriftSteamAuthProvider()
 }
 
 
-void FDriftSteamAuthProvider::InitCredentials(InitCredentialsCallback callback)
+void FDriftSteamAuthProvider::InitCredentials(const FAuthenticationSettings& AuthenticationSettings, InitCredentialsCallback callback)
 {
     const auto localUserNum = 0;
 
